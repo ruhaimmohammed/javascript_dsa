@@ -9,3 +9,5 @@ const fibanocci = (n) => {
 };
 
 export default fibanocci;
+
+// Big - O = O(n)

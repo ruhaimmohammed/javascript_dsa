@@ -7,3 +7,5 @@ const factorial = (n) => {
 };
 
 export default factorial;
+
+// Big - O = O(n)
