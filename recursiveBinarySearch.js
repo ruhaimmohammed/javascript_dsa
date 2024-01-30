@@ -20,3 +20,5 @@ const search = (arr, target, leftIndex, rightIndex) => {
 }
 
 export default recursiveBinarySearch;
+
+// Big-O = O(logn)
