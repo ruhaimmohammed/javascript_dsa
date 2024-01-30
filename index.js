@@ -5,6 +5,7 @@ import isPowerOfTwo, { isPowerOfTwoBitWise } from './isPowerOfTwo.js';
 import recursiveFibanocci from './recursiveFibanocci.js';
 import recursiveFactorial from './recursiveFactorial.js';
 import linearSearch from './linearSearch.js';
+import binarySearch from './binarySearch.js';
 
 // fibanocci(7);
 // factorial(5);
@@ -13,5 +14,7 @@ import linearSearch from './linearSearch.js';
 // console.log(isPowerOfTwoBitWise(8));
 // console.log(recursiveFibanocci(50));
 // console.log(recursiveFactorial(5)); // 120 
-console.log(linearSearch([0,2,4,5,3],5)); // 3
-console.log(linearSearch([0,2,4,5,3],50)); // -1
+// console.log(linearSearch([0,2,4,5,3],5)); // 3
+// console.log(linearSearch([0,2,4,5,3],50)); // -1
+console.log(binarySearch([-5, 2, 4, 6, 10], -5)); //0
+console.log(binarySearch([-5, 2, 4, 6, 10], 10)); //4
