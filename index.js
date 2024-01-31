@@ -19,5 +19,6 @@ import recursiveBinarySearch from './recursiveBinarySearch.js';
 // console.log(linearSearch([0,2,4,5,3],50)); // -1
 // console.log(binarySearch([-5, 2, 4, 6, 10], -5)); //0
 // console.log(binarySearch([-5, 2, 4, 6, 10], 10)); //4
-console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], -5)); //0
-console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], 10)); //4
+// console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], -5)); //0
+// console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], 10)); //4
+console.log(bubbleSort([-6, 2, -4, 10, 5])); // [-6, -4, 2, 5, 10]
