@@ -7,6 +7,7 @@ import recursiveFactorial from './recursiveFactorial.js';
 import linearSearch from './linearSearch.js';
 import binarySearch from './binarySearch.js';
 import recursiveBinarySearch from './recursiveBinarySearch.js';
+import insertionSort from './insertionSort.js';
 
 // fibanocci(7);
 // factorial(5);
@@ -21,4 +22,5 @@ import recursiveBinarySearch from './recursiveBinarySearch.js';
 // console.log(binarySearch([-5, 2, 4, 6, 10], 10)); //4
 // console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], -5)); //0
 // console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], 10)); //4
-console.log(bubbleSort([-6, 2, -4, 10, 5])); // [-6, -4, 2, 5, 10]
+// console.log(bubbleSort([-6, 2, -4, 10, 5])); // [-6, -4, 2, 5, 10]
+console.log(insertionSort([-6, 2, -4, 10, 5])); // [-6, -4, 2, 5, 10]
