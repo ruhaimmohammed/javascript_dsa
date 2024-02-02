@@ -8,6 +8,7 @@ import linearSearch from './linearSearch.js';
 import binarySearch from './binarySearch.js';
 import recursiveBinarySearch from './recursiveBinarySearch.js';
 import insertionSort from './insertionSort.js';
+import quickSort from './quickSort.js';
 
 // fibanocci(7);
 // factorial(5);
@@ -23,4 +24,5 @@ import insertionSort from './insertionSort.js';
 // console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], -5)); //0
 // console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], 10)); //4
 // console.log(bubbleSort([-6, 2, -4, 10, 5])); // [-6, -4, 2, 5, 10]
-console.log(insertionSort([-6, 2, -4, 10, 5])); // [-6, -4, 2, 5, 10]
+// console.log(insertionSort([-6, 2, -4, 10, 5])); // [-6, -4, 2, 5, 10]
+console.log(quickSort([-10, 2, -5, 1, 5])); // [-10, -5, 1, 2, 5]
