@@ -10,6 +10,7 @@ import recursiveBinarySearch from './recursiveBinarySearch.js';
 import insertionSort from './insertionSort.js';
 import quickSort from './quickSort.js';
 import mergeSort from './mergeSort.js';
+import cartesianProduct from './cartesianProduct.js';
 
 // fibanocci(7);
 // factorial(5);
@@ -27,4 +28,8 @@ import mergeSort from './mergeSort.js';
 // console.log(bubbleSort([-6, 2, -4, 10, 5])); // [-6, -4, 2, 5, 10]
 // console.log(insertionSort([-6, 2, -4, 10, 5])); // [-6, -4, 2, 5, 10]
 // console.log(quickSort([-10, 2, -5, 1, 5])); // [-10, -5, 1, 2, 5]
-console.log(mergeSort([-10, 2, -5, 1, 5])); // [-10, -5, 1, 2, 5]
+// console.log(mergeSort([-10, 2, -5, 1, 5])); // [-10, -5, 1, 2, 5]
+
+
+
+console.log(cartesianProduct([1, 2], [3, 4, 5])); //[[1,3], [1,4], [1,5], [2,3], [2,4], [2,5]]
