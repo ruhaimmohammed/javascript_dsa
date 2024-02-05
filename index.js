@@ -11,6 +11,7 @@ import insertionSort from './insertionSort.js';
 import quickSort from './quickSort.js';
 import mergeSort from './mergeSort.js';
 import cartesianProduct from './cartesianProduct.js';
+import climbingStairCase from './climbingStairCase.js';
 
 // fibanocci(7);
 // factorial(5);
@@ -32,4 +33,5 @@ import cartesianProduct from './cartesianProduct.js';
 
 
 
-console.log(cartesianProduct([1, 2], [3, 4, 5])); //[[1,3], [1,4], [1,5], [2,3], [2,4], [2,5]]
+// console.log(cartesianProduct([1, 2], [3, 4, 5])); //[[1,3], [1,4], [1,5], [2,3], [2,4], [2,5]]
+// console.log(climbingStairCase(5)); // 8
