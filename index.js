@@ -12,6 +12,7 @@ import quickSort from './quickSort.js';
 import mergeSort from './mergeSort.js';
 import cartesianProduct from './cartesianProduct.js';
 import climbingStairCase from './climbingStairCase.js';
+import towerOfHanoi from './towerOfHanoi.js';
 
 // fibanocci(7);
 // factorial(5);
@@ -35,3 +36,5 @@ import climbingStairCase from './climbingStairCase.js';
 
 // console.log(cartesianProduct([1, 2], [3, 4, 5])); //[[1,3], [1,4], [1,5], [2,3], [2,4], [2,5]]
 // console.log(climbingStairCase(5)); // 8
+
+towerOfHanoi(3, 'A', 'C', 'B');
